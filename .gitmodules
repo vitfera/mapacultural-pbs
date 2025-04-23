@@ -1,0 +1,15 @@
+[submodule "plugins/MultipleLocalAuth"]
+	path = plugins/MultipleLocalAuth
+	url = https://github.com/mapasculturais/plugin-MultipleLocalAuth
+[submodule "plugins/Accessibility"]
+	path = plugins/Accessibility
+	url = https://github.com/mapasculturais/plugin-Accessibility
+[submodule "plugins/RecreatePCacheOnLogin"]
+	path = plugins/RecreatePCacheOnLogin
+	url = https://github.com/mapasculturais/plugin-RecreatePCacheOnLogin
+[submodule "plugins/SpamDetector"]
+	path = plugins/SpamDetector
+	url = https://github.com/mapasculturais/plugin-SpamDetector
+[submodule "plugins/Analytics"]
+	path = plugins/Analytics
+	url = https://github.com/mapasculturais/plugin-Analytics
