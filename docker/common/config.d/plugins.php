@@ -6,5 +6,6 @@ return [
         'SamplePlugin' => ['namespace' => 'SamplePlugin'],
         'Accessibility' => ['namespace' => 'Accessibility'],
         'RecreatePCacheOnLogin' => ['namespace' => 'RecreatePCacheOnLogin'],
+        'SpamDetector' => ['namespace' => 'SpamDetector'],
     ]
 ];
