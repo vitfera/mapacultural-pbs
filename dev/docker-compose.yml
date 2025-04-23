@@ -22,9 +22,7 @@ services:
       # themes and plugins
       - ../plugins/SamplePlugin:/var/www/src/plugins/SamplePlugin
       - ../plugins/MultipleLocalAuth:/var/www/src/plugins/MultipleLocalAuth
-      # - ../themes/NovoTema:/var/www/src/themes/NovoTema
-      - ../themes/MapaMinC:/var/www/src/themes/MapaMinC
-      # - ../themes/BaseV2:/var/www/src/themes/BaseV2
+      - ../plugins/Accessibility:/var/www/src/plugins/Accessibility
 
     environment:
       - PENDING_PCACHE_RECREATION_INTERVAL=10
