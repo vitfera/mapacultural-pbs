@@ -4,3 +4,6 @@
 [submodule "plugins/Accessibility"]
 	path = plugins/Accessibility
 	url = https://github.com/mapasculturais/plugin-Accessibility
+[submodule "plugins/RecreatePCacheOnLogin"]
+	path = plugins/RecreatePCacheOnLogin
+	url = https://github.com/mapasculturais/plugin-RecreatePCacheOnLogin
