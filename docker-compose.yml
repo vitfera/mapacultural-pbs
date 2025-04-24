@@ -41,7 +41,11 @@ services:
       - ./docker-data/logs:/var/www/var/logs
 
       - ./docker/production/config.d:/var/www/config/prod.d
+      - ./docker/common/config.d:/var/www/config/common.d
       - ./themes/MapasPBS:/var/www/src/themes/MapasPBS
+      #- ../plugins/MultipleLocalAuth:/var/www/src/plugins/MultipleLocalAuth
+      #- ../plugins/SamplePlugin:/var/www/src/plugins/SamplePlugin
+      #- ../plugins/Accessibility:/var/www/src/plugins/Accessibility
     links:
       - db
       - redis
