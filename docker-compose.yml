@@ -41,6 +41,7 @@ services:
       - ./docker-data/logs:/var/www/var/logs
 
       - ./docker/production/config.d:/var/www/config/prod.d
+      - ./themes/MapasPBS:/var/www/src/themes/MapasPBS
     links:
       - db
       - redis
